@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Liste de Musique de type bien</title>
+  <link rel="stylesheet" href="decoration/application.css">
+  <style></style>
+  <script src="Musique.js"></script>
+  <script src="MusiqueDAO.js"></script>
+  <script src="VueMusique.js"></script>
+  <script src="VueListeMusique.js"></script>
+  <script defer src="Application.js"></script>
+
+</head>
+<body>
+  <div id="page-chargement-application">Chargement de l'application des meilleurs musiques</div>
+
+
+  <script type="plain/text" id="html-vue-liste-musique">
+  <div class="page">
+    <h1>Liste de Musique</h1>
+    <ul id="liste-musique">
+      <li><a href="#musique/{Musique.id}" class="liste-musique-item">{Musique.nom}</a></li>
+    </ul>
+  </div>
+  </script>
+
+  <script type="plain/text" id="html-vue-musique">
+  <div class="page">
+    <h1>Nom de la musique :</h1>
+    <h2 id="musique-nom"></h2>
+    <span>Artiste :</span><p id="musique-artiste"></p>
+    <span>Style : </span>
+    <p id="musique-style"></p>
+    <section class="links">
+      <nav class="link-effect-1">
+          <a href="#"><span data-hover="Revenir &agrave; l'accueil">Revenir &agrave; l'accueil</span></a>
+      </nav>
+  </div>
+  </script>
+
+</body>
+</html>
