@@ -88,6 +88,9 @@ a {
   list-style-type: none;
   padding: 0;
 }
+span{
+  color:red;
+}
 
 .links {
   *zoom: 1;
