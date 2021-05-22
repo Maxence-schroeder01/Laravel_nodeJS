@@ -1,16 +1,15 @@
 {
-  "name": "electron-liste-musique",
+  "name": "electron-musique",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-packager ."
   },
-  "keywords": [],
-  "author": "",
+  "author": "me",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^12.0.2"
+    "electron": "^12.0.2",
+    "electron-packager": "^13.0.1"
   }
 }
